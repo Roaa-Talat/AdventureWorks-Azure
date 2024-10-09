@@ -2,7 +2,9 @@
 
 This repository contains an end-to-end data pipeline project for the AdventureWorks dataset, leveraging various Azure services to process, transform, and analyze data. The primary goal is to extract data from an on-premises SQL Server database, transform it through different stages, and load it into a data warehouse for analysis and reporting.
 
-## Overview
+## Project Overview
+
+### Architecture
 
 The architecture of this project includes the following Azure services:
 
@@ -12,6 +14,26 @@ The architecture of this project includes the following Azure services:
 - **Azure Synapse Analytics**: Serves as the final data warehouse for analytical queries and reporting.
 - **Azure Key Vault**: Secures sensitive information like database credentials.
 - **Microsoft Power BI**: Visualizes the data for reporting and insights.
+
+![Architecture Diagram](./architecture.png) <!-- Replace 'architecture.png' with the path to your architecture image -->
+
+### Data Factory
+
+**Azure Data Factory (ADF)** plays a key role in orchestrating the data pipeline, enabling data movement and transformation.
+
+![Data Factory Overview](./data_factory.png) <!-- Replace 'data_factory.png' with the path to your Data Factory image -->
+
+### SHIR (Self-hosted Integration Runtime)
+
+To facilitate data movement between the on-premises SQL Server and Azure, a **Self-hosted Integration Runtime (SHIR)** is used. It allows secure data transfer from on-premises environments to Azure Data Factory. Below is a screenshot of the SHIR configuration:
+
+![SHIR Configuration](./SHIR.png) <!-- Replace 'SHIR.png' with the path to your SHIR configuration image -->
+
+### Azure Synapse Analytics
+
+**Azure Synapse Analytics** serves as the central data warehouse, enabling complex analytical queries and reporting. It connects seamlessly with **Power BI** for data visualization.
+
+![Azure Synapse Analytics](Synapse_Analytics.png) <!-- Replace 'synapse_analytics.png' with the path to your Synapse Analytics image -->
 
 ## Data Source
 
