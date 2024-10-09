@@ -15,13 +15,13 @@ The architecture of this project includes the following Azure services:
 - **Azure Key Vault**: Secures sensitive information like database credentials.
 - **Microsoft Power BI**: Visualizes the data for reporting and insights.
 
-![Architecture Diagram](./architecture.png) <!-- Replace 'architecture.png' with the path to your architecture image -->
+![Architecture Diagram](./Project_Overview_Articature.png) <!-- Replace 'architecture.png' with the path to your architecture image -->
 
 ### Data Factory
 
 **Azure Data Factory (ADF)** plays a key role in orchestrating the data pipeline, enabling data movement and transformation.
 
-![Data Factory Overview](./data_factory.png) <!-- Replace 'data_factory.png' with the path to your Data Factory image -->
+![Data Factory Overview](./Data_Factory.png) <!-- Replace 'data_factory.png' with the path to your Data Factory image -->
 
 ### SHIR (Self-hosted Integration Runtime)
 
@@ -33,7 +33,7 @@ To facilitate data movement between the on-premises SQL Server and Azure, a **Se
 
 **Azure Synapse Analytics** serves as the central data warehouse, enabling complex analytical queries and reporting. It connects seamlessly with **Power BI** for data visualization.
 
-![Azure Synapse Analytics](Synapse_Analytics.png) <!-- Replace 'synapse_analytics.png' with the path to your Synapse Analytics image -->
+![Azure Synapse Analytics](./Synapse_Analytics.png) <!-- Replace 'synapse_analytics.png' with the path to your Synapse Analytics image -->
 
 ## Data Source
 
