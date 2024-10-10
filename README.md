@@ -37,7 +37,7 @@ To facilitate data movement between the on-premises SQL Server and Azure, a **Se
 
 ## Data Source
 
-- **SQL Server**: AdventureWorks database (on-premises).
+- **SQL Server**: AdventureWorks database.
 - **Objective**: Extract data from SQL Server for further processing and analysis.
 - **Connection Security**: Utilized Azure Key Vault to securely store credentials, ensuring safe authentication when accessing the SQL Server database.
 
